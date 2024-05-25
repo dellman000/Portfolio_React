@@ -1,4 +1,4 @@
-import { Navigation } from "../Componets"
+import { Footer, Navigation } from "../Componets"
 export function Contact() {
     return (<>
         <Navigation />
@@ -28,6 +28,6 @@ export function Contact() {
             <button type="submit" className="btn btn-primary">Submit</button>
         </form>
 
-
+        <Footer />
     </>)
 }
