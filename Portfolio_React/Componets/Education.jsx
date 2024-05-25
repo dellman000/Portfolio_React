@@ -1,3 +1,5 @@
+import { Resume } from "./ResumeComponets/Resume";
+
 export function Education() {
     return (<>
         <section className="d-flex flex-column justify-content-center align-items-center ">
@@ -24,7 +26,7 @@ export function Education() {
             </section>
 
             
-
+        <Resume/>
         </section>
     </>)
 }
